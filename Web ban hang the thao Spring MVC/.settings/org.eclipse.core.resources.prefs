@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/poly/action/CartAction.java=UTF-8
+encoding//src/main/java/com/poly/action/CheckoutAction.java=UTF-8
+encoding//src/main/java/com/poly/action/HomeAction.java=UTF-8
+encoding//src/main/java/com/poly/action/LoginAction.java=UTF-8
+encoding//src/main/java/com/poly/action/SignUp.java=UTF-8
+encoding//src/main/java/com/poly/action/admin/AuthAction.java=UTF-8
+encoding//src/main/java/com/poly/action/admin/CategoryAction.java=UTF-8
+encoding//src/main/java/com/poly/action/admin/CustomerAction.java=UTF-8
+encoding//src/main/java/com/poly/action/admin/OrderAction.java=UTF-8
+encoding//src/main/java/com/poly/action/admin/ProductAction.java=UTF-8

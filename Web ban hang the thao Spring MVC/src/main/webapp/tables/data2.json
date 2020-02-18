@@ -1,0 +1,58 @@
+{
+	"categories": [
+		{
+			"createdAt": "2017-12-12T03:16:41",
+			"id": 24,
+			"name": "danh mục",
+			"parentId": 0,
+			"products": [],
+			"slug": "danh-mudc",
+			"updatedAt": null
+		},
+		{
+			"createdAt": "2017-12-12T04:14:45",
+			"id": 25,
+			"name": "hanh",
+			"parentId": 24,
+			"products": [],
+			"slug": "hanh",
+			"updatedAt": null
+		},
+		{
+			"createdAt": "2017-12-12T04:18:14",
+			"id": 26,
+			"name": "ha",
+			"parentId": 24,
+			"products": [],
+			"slug": "ha",
+			"updatedAt": null
+		},
+		{
+			"createdAt": "2017-12-12T04:18:34",
+			"id": 27,
+			"name": "ádsad",
+			"parentId": 24,
+			"products": [],
+			"slug": "addsad",
+			"updatedAt": null
+		},
+		{
+			"createdAt": "2017-12-12T04:18:56",
+			"id": 28,
+			"name": "hanh",
+			"parentId": 24,
+			"products": [],
+			"slug": "hanh",
+			"updatedAt": null
+		},
+		{
+			"createdAt": "2017-12-12T20:23:43",
+			"id": 29,
+			"name": " ",
+			"parentId": 0,
+			"products": [],
+			"slug": "-",
+			"updatedAt": null
+		}
+	]
+}

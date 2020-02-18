@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		
+		<!-- <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property> 
+			<property name="hibernate.connection.url">jdbc:sqlserver://HIEUBOY:1433;databaseName=HieuBoyStruts</property> 
+			<property name="hibernate.connection.username">hieuboy</property> <property 
+			name="hibernate.connection.password">123</property> -->
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.password"></property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://localhost;databaseName=Duan111</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">1234$</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.enable_lazy_load_no_trans">true</property>
+		<property name="hibernate.search.autoregister_listeners">true</property>
+		<property name="hibernate.validator.apply_to_ddl">false</property>
+		<mapping class="com.poly.entities.Order" />
+		<mapping class="com.poly.entities.Product" />
+		<mapping class="com.poly.entities.Category" />
+		<mapping class="com.poly.entities.AdminUser" />
+		<mapping class="com.poly.entities.OrderDetail" />
+		<mapping class="com.poly.entities.User" />
+		<mapping class="com.poly.entities.DetailImg" />
+		<mapping class="com.poly.entities.ProDetail" />
+	</session-factory>
+</hibernate-configuration>
